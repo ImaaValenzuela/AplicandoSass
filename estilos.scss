@@ -8,8 +8,8 @@ $color5: #373737 ;
 body{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    background-color: var($color1);
-    color: var($color2);
+    background-color: $color1;
+    color: $color2;
     letter-spacing: .05rem;
 }
 
@@ -32,17 +32,17 @@ body{
 
 .btn-primary{
     background-color: transparent;
-    border: 1px solid var($color2);
+    border: 1px solid $color2;
     border-radius: 0;
-    color: var($color2);
+    color: $color2;
     padding: .7rem 2.5rem;
     font-size: 1.25rem;
 }
 
 .btn-primary:hover{
-    background-color: var($color2);
+    background-color: $color2;
     color: $color1;
-    border: 1px solid var($color2);
+    border: 1px solid $color2;
 }
 
 .navbar{
@@ -54,21 +54,21 @@ body{
 }
 
 .nav-item:hover{
-    color: var($color1);
-    background-color: var($color2);
+    color: $color1;
+    background-color: $color2;
 }
 
 .row-home:hover{
-    background-color: var($color5);
-    color: var($color4);
+    background-color: $color5;
+    color: $color4;
     border-radius: .5rem;
 }
 
 /* FOOTER */
 
 .footer-color{
-    background-color: var($color6)
+    background-color: $color6;
 }
 .copyright{
-    background-color: var($color1);
+    background-color: $color1;
 }
